@@ -1,7 +1,15 @@
-## Robot Package Template
+## 4 Wheel Differential Drive Robot
 
-This is a GitHub template. You can make your own copy by clicking the green "Use this template" button.
+This project is currently under development.
+The project aims at building a mini prototype version of a Smart Autonomous Electric Vehicle.
 
-It is recommended that you keep the repo/package name the same, but if you do change it, ensure you do a "Find all" using your IDE (or the built-in GitHub IDE by hitting the `.` key) and rename all instances of `my_robot` to whatever your project's name is.
+Platform Used: Ros2 Iron
 
-Note that each directory currently has at least one file in it to ensure that git tracks the files (and, consequently, that a fresh clone has direcctories present for CMake to find). These example files can be removed if required (and the directories can be removed if `CMakeLists.txt` is adjusted accordingly).
+4 motors are being used and are connected in parallel
+
+Commands to be used:
+
+1) source ~/.bashrc
+2) ros2 launch my_robot rsp.launch.py
+3) rviz2
+4) ros2 run joint_state_publisher_gui joint_state_publisher_gui
